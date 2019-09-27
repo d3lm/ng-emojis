@@ -1,0 +1,18 @@
+<h1>{{ title }}!</h1>
+
+<button (click)="show = !show">Toggle</button>
+
+<div [💅]="myStyles">Custom Styles</div>
+
+<div class="box">
+  <input type="text" [🍌]="myModel" />
+  <div>Input: {{ myModel }}</div>
+</div>
+
+<div 🙈="show">
+  <div class="box">ngIf works 🥳</div>
+  <ul>
+    <li>ngFor works 🥳</li>
+    <li 🔁="let item of items">Item {{ item }}</li>
+  </ul>
+</div>
